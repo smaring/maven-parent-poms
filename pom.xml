@@ -106,6 +106,7 @@
     <javascript_optimize-phase>prepare-package</javascript_optimize-phase>
     <obfuscate-bundle_unpack-obf-jar-phase>prepare-package</obfuscate-bundle_unpack-obf-jar-phase>
     <obfuscate-bundle_replace-obf-classes-in-blueprint-phase>prepare-package</obfuscate-bundle_replace-obf-classes-in-blueprint-phase>
+    <default-jar-phase>package</default-jar-phase>
     <jar-bundle-phase>package</jar-bundle-phase>
     <obfuscate_execute-phase>package</obfuscate_execute-phase>
     <assembly_package-phase>package</assembly_package-phase>
@@ -114,6 +115,7 @@
     <obfuscate-bundle_generate-bundle-manifest-phase>package</obfuscate-bundle_generate-bundle-manifest-phase>
     <obfuscate-bundle_jar-bundle-phase>package</obfuscate-bundle_jar-bundle-phase>
     <obfuscate_attach-artifacts-phase>package</obfuscate_attach-artifacts-phase>
+    <obfuscate_replace-jar-phase>package</obfuscate_replace-jar-phase>
     <test-integration_add-resources-phase>pre-integration-test</test-integration_add-resources-phase>
     <test-integration_add-source-phase>pre-integration-test</test-integration_add-source-phase>
     <test-integration_jacoco-agent-prep-phase>pre-integration-test</test-integration_jacoco-agent-prep-phase>
